@@ -66,7 +66,7 @@ def firstRun(dict):
     rc = 1
     
     for k, v in dict.items():
-        img_url = 'c://Temp/imgs/' + k + '.png'
+        img_url = 'img/' + k + '.png'
         img = ImageTk.PhotoImage(Image.open(img_url))
 
         Grid.rowconfigure(root, rc, weight=1)

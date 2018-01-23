@@ -1,0 +1,101 @@
+/* 
+Bootstrap 4 Breakpoints 
+--------------------------------------------------------------------------------------------
+*/
+
+/* Extra small devices (phones <= iphone 5, less than 375px) */
+body {font-size:.7rem;} /*1rem = 16px*/
+
+
+/* Small devices in landscape (phones >= iphone 6, 375 to 667px) */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+and (orientation : landscape) {  
+  body {font-size:1.5rem;}
+}
+
+/* Small devices in portrait (phones >= iphone 6, 375 to 667px) */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+and (orientation : portrait) {  
+  body {font-size:1.75rem;}
+}
+ 
+/* Medium devices in landscape (tablets, 768 to 1024px) */
+@media only screen
+and (min-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation : landscape) {  
+  body {font-size:2.5rem;}
+}
+
+/* Medium devices in portrait (tablets, 768 to 1024px) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+	body {font-size:2.75rem;}
+}
+ 
+/* Large devices (desktops, 1024px and up) */
+@media only screen
+and (min-width : 1024px) { 
+  body {font-size:2.5rem;}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen
+and (min-width: 1200px) {  
+  body {font-size:2.75rem;} 
+}
+
+/* Extra extra large devices (Extra large desktops, 1600px and up) */
+@media only screen
+and (min-width: 1600px) {  
+  body {font-size:3.5rem;} 
+}
+
+/*
+Body
+--------------------------------------------------------------------------------------------
+*/
+
+.header {
+	font-weight:bold;
+	margin-bottom:1%;
+}
+
+.col {
+	text-align:center;
+	padding-right:3px;
+	padding-left:3px;
+}
+
+.status {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.train {
+	margin-top:.1%;
+	margin-bottom:.1%;
+	max-height: 80%;
+}
+
+.img-fluid {
+	max-width: 45%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+
+.details {
+	background-color: lightgray;
+	display: none;
+}
+
+.footer div {
+	margin-top:5%;
+	font-size:85%;
+}
